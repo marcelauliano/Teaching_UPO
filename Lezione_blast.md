@@ -6,7 +6,7 @@ Today we are going to [BLAST](https://www.nature.com/scitable/topicpage/basic-lo
 
 We have a fasta sequence for the species _Rhimphoctona megacephalus_ and we want to hopefully identify what this sequence is. I have a database of other insect sequences, and I want to blast my _R. megacephalus_ sequence to this database to see if I can identify the sequence. We can do it localy in our computesr, since the blast algorithm is already installed.
 
-In this same github repositiory you will find the _R. megacephalus_ sequence we want to BLAST (xx) (this is the query), and the database of insect sequences (subject). Download these sequences to your local machine.
+In this same github repositiory you will find the _R. megacephalus_ sequence we want to BLAST [OZ022415.1.out2.fa](./OZ022415.1.out2.fa) (this is the query), and the database of insect sequences (subject). Download these sequences to your local machine.
 
 ### 1. Create a blast database to run your BLAST search
 

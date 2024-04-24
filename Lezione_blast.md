@@ -87,7 +87,9 @@ Now that the first analyses are done, I want you to interprete the results.
 
 4-) What is the percentage identity of the match?
 
-5-) What do you think our query sequence is?
+5-) What is the length aligment of the first blast match?
+
+6-) What do you think our query sequence is?
 
 Once you have finish answering these questions, let Marcela know. 
 
@@ -112,7 +114,14 @@ If you want to cound the number of sequences in a multifasta file, such as our s
 
 ---
 
-### 4 Finally, let's run blast on the NCBI website
+### 4. Finally, let's run blast on the NCBI website
 
-Finally, copy your query sequence 
+Finally, copy your query sequence and blast on the [NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome). 
+
+7-) Do you have the same result as the local blast?
+
+8-) What is the length aligment of the first blast match?
+
+9-) Which blast result is more reliable? Why?
+
 

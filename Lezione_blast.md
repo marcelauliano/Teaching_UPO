@@ -8,14 +8,18 @@ We have a fasta sequence for the species _Rhimphoctona megacephalus_ and we want
 
 In this same github repositiory you will find the _R. megacephalus_ sequence we want to BLAST [OZ022415.1.out2.fa](./OZ022415.1.out2.fa) (in blast, this is called the **query**), and the database of insect sequences [sequences_db2.fasta](./sequences_db2.fasta) (in blast, those are called the **subjects**). Download these sequences to your local machine.
 
-### 1. Create a blast database to run your BLAST search
-
 Confirm you have your sequences downloaded.
 
-In the
+In the command line, in folder where you downloaded the sequences type:
+
+```ls -ltrh ```
+
+Do you see your sequences there? Good, then we can go to the next step.
 
 
-the first step to run a local blast search is to 
+### 1. Create a blast database to run your BLAST search
+
+The first step in local blast is to create a blast database with indexes for your subjects. Run the following command to do it so:
 
 ```
 makeblastdb -in sequences_db2.fasta -dbtype "nucl" -out sequences_db2
